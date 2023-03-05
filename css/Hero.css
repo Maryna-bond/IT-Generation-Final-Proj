@@ -1,4 +1,4 @@
-.hero-section {
+.hero {
   position: relative;
   width: 100%;
   height: 100%;
@@ -11,18 +11,18 @@
   background-color: #f1f1f1;
   color: #000;
   overflow: hidden;
-  padding: 0;
-}
-.hero-section__text {
-  text-align: left;
-  padding: 0 2rem;
-  font-family: Montserrat;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 113%;
 }
 
-.hero-section__title {
+.hero__description__subtitle {
+  position: absolute;
+  width: 195.03px;
+  height: 29.87px;
+  font-family: "Open Sans, sans-serif";
+  font-weight: 600;
+  color: #646464;
+}
+
+.hero__description__title {
   font-size: 48px;
   font-weight: 500;
   margin-bottom: 2rem;
@@ -33,7 +33,7 @@
   left: 100px;
 }
 
-.hero-section__description {
+.hero__description__story {
   font-size: 16px;
   line-height: 130%;
   font-weight: 400;
@@ -43,4 +43,12 @@
   width: 391px;
   height: 117px;
   padding: 12px, 48px, 12px, 48px;
+}
+
+.hero__image-design {
+  width: 715.85px;
+  height: 613.23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }/*# sourceMappingURL=Hero.css.map */
