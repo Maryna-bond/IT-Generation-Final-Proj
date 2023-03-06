@@ -1,0 +1,53 @@
+.what-we-do {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 100%;
+}
+
+.what-we-do__content {
+  display: inline;
+  width: 1640.36px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.what-we-do__subtitle {
+  width: 150.32px;
+  height: 38.54px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+  letter-spacing: -0.01em;
+  color: #646464;
+}
+
+.what-we-do__title {
+  width: 319.13px;
+  height: 107.37px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 78px;
+  /* or 162% */
+  color: #212121;
+}
+
+.what-we-do__nav__list-item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 206.67px;
+  height: 46.04px;
+  background: #FFFFFF;
+  border: 5px solid #37806B;
+  border-radius: 20px;
+}/*# sourceMappingURL=WhatWeDo.css.map */
