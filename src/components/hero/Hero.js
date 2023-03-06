@@ -16,7 +16,8 @@ class Hero extends Component {
           <button className="hero__description__button">CONTACT</button>
         </div>
         <div className='hero__image'>
-          <img className='hero__image-design' src='./img/hero-pic.jpg' alt="design"/>
+          <img className='hero__image-design' src='./img/hero-pic.jpg' alt="design" />
+         <img className='background-rectangle'  alt="rectangle"/>
         </div>
         
       </section>
