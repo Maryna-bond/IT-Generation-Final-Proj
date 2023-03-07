@@ -14,29 +14,38 @@ class WhatWeDo extends Component {
               <li className='what-we-do__nav__list-item'>ARCHITECTURE</li>
               <li className='what-we-do__nav__list-item'>PLANNING</li>
           </ul>
-          <ul className='navbar__menu__list'>
-            <li className='navbar__menu__list-item'>
-              <img></img>
-              <h3>Interior Design1</h3>
-              <p>Lorem ipsum dolor amet consectetur
-                adipiscing elit sed eiusmod tempor
-                incididunt ut labore.</p>
-              </li>
-            <li className='navbar__menu__list-item'>
-              <img></img>
-              <h3>Architecture</h3>
-              <p>Lorem ipsum dolor amet consectetur
-                adipiscing elit sed eiusmod tempor
-                incididunt ut labore.</p>
+          <ul className='what-we-do__content__list'>
+            <li className='what-we-do__content__list-item1'>
+              <span class="icon">
+                <img className='what-we-do__content__list-item__logo' src="./img/what-we-do_icon1.png" alt="icon" />
+                <h3>Interior Design1</h3>
+                <p>Lorem ipsum dolor amet consectetur
+                  adipiscing elit sed eiusmod tempor
+                  incididunt ut labore.</p>
+              </span>
             </li>
-            <li className='navbar__menu__list-item'>
-              <img></img>
+            <li className='what-we-do__content__list-item2'>
+              <span class="icon">
+                <img className='what-we-do__content__list-item__logo' src="./img/what-we-do_icon2.png" alt="icon" />
+                <h3>Architecture</h3>
+                <p>Lorem ipsum dolor amet consectetur
+                  adipiscing elit sed eiusmod tempor
+                  incididunt ut labore.</p>
+            </span>
+            </li>
+            <li className='what-we-do__content__list-item3'>
+              <span class="icon">
+              <img className='what-we-do__content__list-item__logo' src="./img/what-we-do_icon3.png" alt="icon" />
               <h3>Planning 1</h3>
               <p>Lorem ipsum dolor amet consectetur
                 adipiscing elit sed eiusmod tempor
                 incididunt ut labore.</p>
-              </li>
-            </ul>
+              </span>
+            </li>
+          </ul>
+          <span>
+          <img className='what-we-do__background-dots' src="./img/what-we-do_dots.png" alt="icon" />
+        </span>
         </div>
       </section>
     );
