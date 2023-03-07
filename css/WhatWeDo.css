@@ -20,9 +20,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 1300px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .what-we-do__subtitle {
@@ -174,4 +171,7 @@ ul {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
+  position: relative;
+  left: 80%;
+  margin-top: 30px;
 }/*# sourceMappingURL=WhatWeDo.css.map */
