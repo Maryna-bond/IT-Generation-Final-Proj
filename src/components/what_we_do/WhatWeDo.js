@@ -43,7 +43,6 @@ class WhatWeDo extends Component {
               </span>
             </li>
           </ul>
-          
           <img className='what-we-do__background-dots' src="./img/what-we-do_dots.png" alt="icon" />
         </div>
       </section>

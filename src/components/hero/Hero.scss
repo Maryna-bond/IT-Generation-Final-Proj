@@ -58,6 +58,13 @@
   color: #FFFFFF;
 }
 
+.hero__background-dots {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 .hero__image {
   position: relative;
   width: 749.79px;
@@ -74,6 +81,7 @@
   border: 2px solid #B0855B;
   border-radius: 140px 0px;
 }
+
 .hero__image-design {
   position: relative;
   width: 715px;
