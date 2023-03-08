@@ -14,8 +14,9 @@ class Hero extends Component {
             veniam, quis nostrud exercitation.
           </p>
           <button className="hero__description__button">CONTACT</button>
+          <img className='hero__background-dots' src="./img/hero_dots.png" alt="dots" />
         </div>
-        <img className='hero__background-dots' src="./img/hero_dots.png" alt="dots" />
+        
         <div className='hero__image'>
           <img className='hero__image-design' src='./img/hero-pic.jpg' alt="design" />
          <img className='background-rectangle'  alt="rectangle"/>

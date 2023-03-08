@@ -21,6 +21,7 @@
 .hero__description {
   width: 635px;
   height: 458px;
+  margin-left: 50px;
 }
 
 .hero__description__subtitle {
@@ -77,6 +78,7 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  margin-top: 50px;
 }
 
 .hero__image {
