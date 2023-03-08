@@ -13,7 +13,7 @@ class Hero extends Component {
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation.
           </p>
-          <button className="hero__description__button">CONTACT</button>
+          <button className="hero__description__button"><a className='button' href="#contact">CONTACT</a></button>
           <img className='hero__background-dots' src="./img/hero_dots.png" alt="dots" />
         </div>
         

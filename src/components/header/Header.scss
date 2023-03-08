@@ -37,27 +37,30 @@ a {
 
 .navbar__menu {
   display: flex;
-  justify-content: flex-end;
+  position: absolute;
+  justify-content: space-around;
   width: 796px;
-  height: 31px;
-  gap: 40px;
+  height: 40px;
+  //gap: 30px;
   align-self: center;
+  right: 30px;
+
 }
 
-.navbar__menu__list {
-  float: left;
-  display: flex;
-  width: 648px;
-  height: 21px;
-  gap: 30px;
-  font-family: 'Open Sans';
-  justify-content: space-around;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
-  align-self: center;
-  color: #646464;
-}
+// .navbar__menu__list {
+//   float: left;
+//   display: flex;
+//   width: 648px;
+//   height: 21px;
+//   gap: 30px;
+//   font-family: 'Open Sans';
+//   justify-content: space-around;
+//   font-weight: 600;
+//   font-size: 16px;
+//   line-height: 22px;
+//   align-self: center;
+//   color: #646464;
+// }
 // a:hover {
 //     border: 1px solid gray;
 //   color: green;
@@ -73,27 +76,36 @@ button {
   cursor: pointer;
   color: #FFFFFF;
 }
-.navbar__menu__list-item{
+
+.navbar__menu__list-item {
+  display: flex;
   align-self:center;
-  width: 100px;
+  font-family: 'Open Sans';
+  justify-content: center;
+  width: 150px;
+  //gap: 5px;
 }
 
-.navbar__menu__list-item:hover a {
-  border: 1px solid gray;
+.navbar__menu__list-item:hover {
+  border: 2px solid gray;
   color: green;
   border-radius: 44px;
+  width: 150px;
 }
 
 .navbar__menu__signup-button {
-width: 96px;
-height: 31px;
-background: #CAA892;
-border-radius: 15px 0px;
-align-self: center;
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-color: #FFFFFF;
-border: none;
+  display: flex;
+  justify-content: center;
+  width: 170px;
+  height: 31px;
+  background: #CAA892;
+  border-radius: 15px 0px;
+  align-self: center;
+  align-items: center;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  border: none;
+  margin-left: 20px;
 }

@@ -11,16 +11,15 @@ class Header extends Component {
             <img src="./img/logo.png" alt="decbase-logo" />
           </a>
           <div className="navbar__menu">
-            <ul className='navbar__menu__list'>
-              <li className='navbar__menu__list-item'><a href="#">HOME</a></li>
-              <li className='navbar__menu__list-item'><a href="#">PROJECT</a></li>
-              <li className='navbar__menu__list-item'><a href="#">SERVICES</a></li>
-              <li className='navbar__menu__list-item'><a href="#">ABOUT</a></li>
-              <li className='navbar__menu__list-item'><a href="#">BLOG</a></li>
-              <li className='navbar__menu__list-item'><a href="#">SHOP</a></li>
-              <li className='navbar__menu__list-item'><a href="#">CONTACT</a></li>
-            </ul>
-            <button className="navbar__menu__signup-button" type="button"><a className='button'>Sign Up</a></button>
+            <a className="navbar__menu__list-item" href="#home">HOME</a>
+            <a className="navbar__menu__list-item" href="#project">PROJECT</a>
+            <a className="navbar__menu__list-item" href="#services">SERVICES</a>
+            <a className="navbar__menu__list-item" href="#about">ABOUT</a>
+            <a className="navbar__menu__list-item" href="#blog">BLOG</a>
+            <a className="navbar__menu__list-item" href="#shop">SHOP</a>
+            <a className="navbar__menu__list-item" href="#contact">CONTACT</a>
+          
+            <button className="navbar__menu__signup-button" type="button"><a className='button' href="#signup">Sign Up</a></button>
           </div>
         </div>
       </div>

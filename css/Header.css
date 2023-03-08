@@ -49,33 +49,14 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  width: 796px;
-  height: 31px;
-  gap: 40px;
-  -ms-flex-item-align: center;
-      align-self: center;
-}
-
-.navbar__menu__list {
-  float: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 648px;
-  height: 21px;
-  gap: 30px;
-  font-family: "Open Sans";
+  position: absolute;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
+  width: 796px;
+  height: 40px;
   -ms-flex-item-align: center;
       align-self: center;
-  color: #646464;
+  right: 30px;
 }
 
 a.button {
@@ -88,28 +69,45 @@ button {
 }
 
 .navbar__menu__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-item-align: center;
       align-self: center;
-  width: 100px;
+  font-family: "Open Sans";
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 150px;
 }
 
-.navbar__menu__list-item:hover a {
-  border: 1px solid gray;
+.navbar__menu__list-item:hover {
+  border: 2px solid gray;
   color: green;
   border-radius: 44px;
+  width: 150px;
 }
 
 .navbar__menu__signup-button {
-  width: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 170px;
   height: 31px;
   background: #CAA892;
   border-radius: 15px 0px;
   -ms-flex-item-align: center;
       align-self: center;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Open Sans";
   font-weight: 600;
   font-size: 16px;
   color: #FFFFFF;
   border: none;
+  margin-left: 20px;
 }/*# sourceMappingURL=Header.css.map */

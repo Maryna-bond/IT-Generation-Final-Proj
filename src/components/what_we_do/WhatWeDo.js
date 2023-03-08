@@ -16,7 +16,7 @@ class WhatWeDo extends Component {
           </ul>
           <ul className='what-we-do__content__list'>
             <li className='what-we-do__content__list-item1'>
-              <span class="icon">
+              <span className="icon">
                 <img className='what-we-do__content__list-item__logo' src="./img/what-we-do_icon1.png" alt="icon" />
                 <h3>Interior Design1</h3>
                 <p>Lorem ipsum dolor amet consectetur
@@ -25,7 +25,7 @@ class WhatWeDo extends Component {
               </span>
             </li>
             <li className='what-we-do__content__list-item2'>
-              <span class="icon">
+              <span className="icon">
                 <img className='what-we-do__content__list-item__logo' src="./img/what-we-do_icon2.png" alt="icon" />
                 <h3>Architecture</h3>
                 <p>Lorem ipsum dolor amet consectetur
@@ -34,7 +34,7 @@ class WhatWeDo extends Component {
             </span>
             </li>
             <li className='what-we-do__content__list-item3'>
-              <span class="icon">
+              <span className="icon">
               <img className='what-we-do__content__list-item__logo' src="./img/what-we-do_icon3.png" alt="icon" />
               <h3>Planning 1</h3>
               <p>Lorem ipsum dolor amet consectetur
