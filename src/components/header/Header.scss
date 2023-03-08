@@ -16,6 +16,11 @@ li {
   display: inline;
 }
 
+a {
+  text-decoration: none;
+  color: #646464;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -45,7 +50,7 @@ li {
   width: 648px;
   height: 21px;
   gap: 30px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   justify-content: space-around;
   font-weight: 600;
   font-size: 16px;
@@ -53,13 +58,28 @@ li {
   align-self: center;
   color: #646464;
 }
+// a:hover {
+//     border: 1px solid gray;
+//   color: green;
+//   border-radius: 44px;
+//   width: 100px;
+// }
 
+a.button {
+  color: #FFFFFF;
+}
+
+button {
+  cursor: pointer;
+  color: #FFFFFF;
+}
 .navbar__menu__list-item{
   align-self:center;
+  width: 100px;
 }
-.navbar__menu__list-item:hover{
+
+.navbar__menu__list-item:hover a {
   border: 1px solid gray;
-  border-radius: 50px;
   color: green;
   border-radius: 44px;
 }

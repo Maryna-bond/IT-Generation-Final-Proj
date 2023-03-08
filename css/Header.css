@@ -20,6 +20,11 @@ li {
   display: inline;
 }
 
+a {
+  text-decoration: none;
+  color: #646464;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,7 +67,7 @@ li {
   width: 648px;
   height: 21px;
   gap: 30px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans";
   -ms-flex-pack: distribute;
       justify-content: space-around;
   font-weight: 600;
@@ -73,14 +78,23 @@ li {
   color: #646464;
 }
 
+a.button {
+  color: #FFFFFF;
+}
+
+button {
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
 .navbar__menu__list-item {
   -ms-flex-item-align: center;
       align-self: center;
+  width: 100px;
 }
 
-.navbar__menu__list-item:hover {
+.navbar__menu__list-item:hover a {
   border: 1px solid gray;
-  border-radius: 50px;
   color: green;
   border-radius: 44px;
 }

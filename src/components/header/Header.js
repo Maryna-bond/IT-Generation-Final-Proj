@@ -12,15 +12,15 @@ class Header extends Component {
           </a>
           <div className="navbar__menu">
             <ul className='navbar__menu__list'>
-              <li className='navbar__menu__list-item'>HOME</li>
-              <li className='navbar__menu__list-item'>PROJECT</li>
-              <li className='navbar__menu__list-item'>SERVICES</li>
-              <li className='navbar__menu__list-item'>ABOUT</li>
-              <li className='navbar__menu__list-item'>BLOG</li>
-              <li className='navbar__menu__list-item'>SHOP</li>
-              <li className='navbar__menu__list-item'>CONTACT</li>
+              <li className='navbar__menu__list-item'><a href="#">HOME</a></li>
+              <li className='navbar__menu__list-item'><a href="#">PROJECT</a></li>
+              <li className='navbar__menu__list-item'><a href="#">SERVICES</a></li>
+              <li className='navbar__menu__list-item'><a href="#">ABOUT</a></li>
+              <li className='navbar__menu__list-item'><a href="#">BLOG</a></li>
+              <li className='navbar__menu__list-item'><a href="#">SHOP</a></li>
+              <li className='navbar__menu__list-item'><a href="#">CONTACT</a></li>
             </ul>
-            <button className="navbar__menu__signup-button" type="button">Sign Up</button>
+            <button className="navbar__menu__signup-button" type="button"><a className='button'>Sign Up</a></button>
           </div>
         </div>
       </div>
